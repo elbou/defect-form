@@ -1,0 +1,44 @@
+{
+  "_id": "page.questions",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.questions--text.auto_name__1",
+      "_type": "text",
+      "hint": "Provide a short 1 line summary of the defect",
+      "label": "Defect Summary",
+      "name": "auto_name__1"
+    },
+    {
+      "_id": "page.questions--textarea.auto_name__2",
+      "_type": "textarea",
+      "hint": "To help us reproduce this issue",
+      "label": "Steps to Reproduce the issue",
+      "name": "auto_name__2"
+    },
+    {
+      "_id": "page.questions--textarea.auto_name__3",
+      "_type": "textarea",
+      "label": "Expected Result",
+      "name": "auto_name__3"
+    },
+    {
+      "_id": "page.questions--textarea.auto_name__4",
+      "_type": "textarea",
+      "label": "Actual Result",
+      "name": "auto_name__4"
+    },
+    {
+      "_id": "page.questions--textarea.auto_name__5",
+      "_type": "textarea",
+      "hint": "Is there any other information that could help provide context",
+      "label": "Other Information",
+      "name": "auto_name__5",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "Defect Form",
+  "url": "questions"
+}
